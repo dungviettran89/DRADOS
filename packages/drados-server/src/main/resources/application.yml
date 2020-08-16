@@ -1,0 +1,7 @@
+server:
+  port: 18080
+spring:
+  security:
+    user:
+      name: ${DRADOS_USERNAME:drados}
+      password: ${DRADOS_PASSWORD:drados}
